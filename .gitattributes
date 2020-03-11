@@ -1,2 +1,64 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<html>
+<head>
+<style>
+
+h1.baslık{
+
+	outline-offset: 5px;
+	outline-style: outset;
+	outline-color: black;
+	outline-width: 5px;
+	margin-top: 20px;
+	margin-left: 5px;
+	color: black;
+	text-align: center;
+
+}
+
+p.menu{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+	background-color: black;
+	color: white;
+	font-size: 2.0em;
+	position: relative;
+	display:inline-block;
+	border: 5px solid #2699a3;
+	padding: 5px 5px;
+	width: 1000px;
+	text-align:center;
+}
+p, ul{
+	font-size: 1.5em;
+}
+
+</style>
+
+</head>
+<body>
+	<h1 class ="baslık">Merhaba bu sayfada size Css ile ilgili temel bir konu anlatımı yapacağız </h1>
+		<p class = "menu"> CSS nedir ? </p>
+	<p id="tanım">Css  Uzun ismi ile (Cascading Style Sheets) olarak bilinen ve Türkçe anlamı olarak ise Stil Şablon adıyla isimlendirimiştir.
+	Css bir sayfayı "Şekillendirmemize" yarayan bir kullanım şeklidir .</p>
+		<p class = "menu"> CSS Kod Yapısı</p>
+	<p>Bir CSS kodu iki temel bileşenden oluşur. Biri element ve stilleri birbirinden ayıran bir seçim. Diğeri ise bir ya da daha fazla özelliği bildirdiğimiz ifade bölümü. <img src="yapi.jpg"></p>
+		<p class = "menu">CSS Nasıl Eklenir ?</p>
+	<p>Bir tarayıcı açıldığı zaman stilleri okur ve o stilin kullanıldığı HTML elementlerini belirtilen özelliklere göre şekillendirir.</p>
+	<p>Üç şekilde sayfamıza stil ekleyebiliriz. Bunlar:</p>
+	<ul>
+		<li> Stilleri CSS Dosyasından Çağırmak</li>
+		<li> HTML Sayfasında CSS Yazmak</li>
+		<li> HTML Elementinin İçerisinde Stil Belirtmek</li>
+	</ul>
+
+
+	<h1 style="color:#2699a3">1.Stilleri CSS Dosyasından Çağırmak</h1>
+	<p>{HTML Sayfanızı açıp head ile head arasına aşağıdaki şekilde stil dosyanızın adını belirtin.}</p>
+	<h1 style="color:#2699a3">2.HTML Sayfasında CSS Yazmak</h1>
+	<p>HTML sayfamızda HEAD elementlerinin arasında STYLE elementi kullanarak stiller yaratmamız mümkün.</p>
+	<h1 style="color:#2699a3">3.HTML Elementinin İçerisinde Stil Belirtmek</h1>
+	<p>Bazen stil dosyası ya da STYLE elementi kullanmadan hızlı çözümler üretmek gerekebilir. Böyle durumlarda her elementin style="" özelliği kullanıma hazırdır. CSS kodlarını element içinde açacağımız STYLE özelliğine sıralarız.</p>
+
+
+</body>
+
